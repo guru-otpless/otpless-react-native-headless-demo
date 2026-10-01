@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- OTPLESS: Silent Network Authentication (SNA) talks to carrier endpoints
+     over plain HTTP on mobile data. Same domains as the SDK's own
+     @xml/otpless_network_security_config. -->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">80.in.safr.sekuramobile.com</domain>
+        <domain includeSubdomains="true">partnerapi.jio.com</domain>
+        <domain includeSubdomains="true">in-vil.ipification.com</domain>
+        <domain includeSubdomains="true">api-csp.airtel.in</domain>
+        <domain includeSubdomains="true">v4-api-csp.airtel.in</domain>
+    </domain-config>
+</network-security-config>

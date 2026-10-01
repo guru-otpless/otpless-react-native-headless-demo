@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Debug builds only: also allow plain HTTP to the Metro bundler (e.g.
+     10.0.2.2:8081 or your machine's LAN IP). Setting a network security
+     config overrides android:usesCleartextTraffic, so this is required. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">80.in.safr.sekuramobile.com</domain>
+        <domain includeSubdomains="true">partnerapi.jio.com</domain>
+        <domain includeSubdomains="true">in-vil.ipification.com</domain>
+        <domain includeSubdomains="true">api-csp.airtel.in</domain>
+        <domain includeSubdomains="true">v4-api-csp.airtel.in</domain>
+    </domain-config>
+</network-security-config>
