@@ -14,7 +14,7 @@ It is a single test screen that covers the phone authentication journey:
 - **SDK event log** (OTPs and tokens redacted), with **Share logs** for bug reports
 
 The same layout as the [Android](https://github.com/guru-otpless/OtplessHeadlessDemo-public)
-and [Flutter](https://github.com/guru-otpless/otpless-flutter-headless-demo) demos.
+and [Flutter](https://github.com/otpless-tech/otpless-flutter-headless-demo) demos.
 Email and social login aren't on the screen, but the wrapper supports them
 (see [3.5](#35-start-authentication)).
 
